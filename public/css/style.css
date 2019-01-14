@@ -1,0 +1,233 @@
+/* @import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css); */
+/* @import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css); */
+
+/* iransenc */
+
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../fonts/eot/IRANSansWeb(FaNum)_Bold.eot');
+	src: url('../fonts/eot/IRANSansWeb(FaNum)_Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb(FaNum)_Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb(FaNum)_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb(FaNum)_Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/eot/IRANSansWeb(FaNum)_Medium.eot');
+	src: url('../fonts/eot/IRANSansWeb(FaNum)_Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb(FaNum)_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb(FaNum)_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb(FaNum)_Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 300;
+	src: url('../fonts/eot/IRANSansWeb(FaNum)_Light.eot');
+	src: url('../fonts/eot/IRANSansWeb(FaNum)_Light.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb(FaNum)_Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb(FaNum)_Light.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb(FaNum)_Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 200;
+	src: url('../fonts/eot/IRANSansWeb(FaNum)_UltraLight.eot');
+	src: url('../fonts/eot/IRANSansWeb(FaNum)_UltraLight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb(FaNum)_UltraLight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb(FaNum)_UltraLight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb(FaNum)_UltraLight.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/eot/IRANSansWeb(FaNum).eot');
+	src: url('../fonts/eot/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb(FaNum).woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb(FaNum).woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb(FaNum).ttf') format('truetype');
+}
+
+
+/* colors */
+/* fixes */
+/* [class*="col-"] {
+    margin-bottom: 1rem; border: #000; border-block-end-style: dashed; border-bottom-style: dashed;
+} */
+/* .fixtop {
+    /* margin-: 15px; 
+}*/
+
+/* pallet one */
+.color-1 {background-color: #DAF7A6;}
+.color-2 {background-color: #FFC300;}
+.fa-address-card {color: #FFC300;}
+
+.color-3 {background-color: #FF5733;}
+.color-4 {background-color: #C70039;}
+.color-5 {background-color: #900C3F;}
+.color-6 {background-color: #581845;}
+
+.fw {color:#DAF7A6; }
+/* pallet two */
+
+.red {
+    background-color: #E63462 !important;
+    
+}
+.blue {
+    background-color: #fe5f55 !important;
+    
+}
+.green {
+    background-color: #C7efcf !important;
+    
+    
+}
+.gray {
+    background-color: #333745 !important;
+    
+    
+}
+/* p3 */
+.p3-0 { background-color: #fff !important;}
+.p3-1 { background-color: #5680E9 !important;}
+.p3-2 { background-color: #84CEEB !important;}
+.p3-3 { background-color: #5AB9EA !important;}
+.p3-4 { background-color: #C1C8E4 !important;}
+.p3-5 { background-color: #8860D0 !important; color:#fff !important; }
+
+
+
+/* Main Styles */
+html {
+    height: 100%;
+}
+body {
+    /* font-family: 'Droid Arabic Naskh', sans-serif; */
+    font-family: 'IRANSans', sans-serif;
+    /* font-size: 14px; */
+    /* font-weight: 300; */
+    /* background-color:#C1C8E4 !important; */
+    direction: rtl;
+    /* background: linear-gradient(45deg, #5680E9, #84CEEB, #C1C8E4, #8860D0); */
+    background: linear-gradient(45deg, #362689, #8B6FE6, #8860D0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.avatar {
+    width: 50px;
+    height: 50px;;
+
+}
+/* Temp Styles */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+
+/* Add some content at the bottom of the video/page */
+.content {
+    /* position: fixed;
+    bottom: 0; */
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+
+
+
+/* .skew {
+    -ms-transform: skewY(5deg);
+    -o-transform: skewY(5deg);
+    -webkit-transform: skewY(5deg);
+    -moz-transform: skewY(5deg);
+    transform: skewY(5deg);
+}
+.skewn {
+    -ms-transform: skewY(-5deg);
+    -o-transform: skewY(-5deg);
+    -webkit-transform: skewY(-5deg);
+    -moz-transform: skewY(-5deg);
+    transform: skewY(-5deg);
+} */
+/*----------------------------------------  pages */
+
+.opa {
+    opacity: 0.8;
+}
+.opa button {
+    opacity: 1 !important;
+}
+
+/* login-page */
+.logindiv{
+    background: linear-gradient(-45deg, #362689, #8B6FE6, #8860D0);
+    color:fff !important;
+
+    
+    
+}
+.round-left {
+
+border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+}
+.round-right {
+
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    }
+.round{
+    border-radius:15px;
+}
+.clear {
+    height: 50px;
+}
+.largbtn {
+
+    background-color: #362689;
+    color:#fff;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.loginbg {
+    background-image: url('/uploads/login-bg.jpg');
+    background-size: cover;
+    opacity: 0.9;
+
+}
+.w {
+    color:fff !important;
+
+}
