@@ -15,7 +15,7 @@
                     @endif
 
                     {{ __('برای دسترسی به صفحه کاربری خود باید ابتدا ایمیل خود را تایید کنید. برای این کار به ایمیل خود وارد شوید') }}
-                    {{ __('If you did not receive the email') }}, <a href="{{ route('verification.resend') }}">{{ __('click here to request another') }}</a>.
+                    {{ __('در صورت عدم دریافت ایمیل') }}, <a href="{{ route('verification.resend') }}">{{ __('اینجا را کلیک کنید') }}</a>.
                 </div>
             </div>
         </div>
