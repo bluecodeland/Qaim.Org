@@ -16,7 +16,31 @@
     <meta property="og:type" content="site">
     <meta property="og:url" content="https://virgool.io">
     <meta property="og:locale" content="fa">
-
+    <meta property="og:locale" content="fa_IR" />
+    <meta property="og:type" content="article" />
+    <meta property="place:location:latitude" content="37.80163"/>
+    <meta property="place:location:longitude" content="48.90726"/>
+    <meta property="business:contact_data:street_address" content="Talesh, Gilan Province"/>
+    <meta property="business:contact_data:locality" content="Talesh, Gilan Province"/>
+    <meta property="business:contact_data:country" content="ایران"/>
+    <meta property="business:contact_data:postal_code" content=""/>
+    <meta property="business:contact_data:website" content="http://taleshgard.ir/"/>
+    <meta property="business:contact_data:email" content="info@taleshgard.ir"/>
+    <meta property="business:contact_data:phone_number" content="09102016342"/>
+    <meta property="og:title" content="تالاب استیل آستارا" />
+    <meta property="og:description" content="آستارا نامی  است که روی شهری زیبا در غربی‌‌‌ترین نقطه استان گیلان قرار گرفته و جلوه‌‌های باشکوهی از طبیعت و فرهنگ قوم تالش را در خود نهفته دارد. طبیعت این منطقه از کشور بسیار متنوع و جالب بوده و از ترکیبی موزون از عناصر مختلف تشکیل شده است. در غرب آن گردنه زیبای حیران ( هوریان)، در شمال آن شهر همنام و زیبای آستارای جمهوری آذربایجان، در شرق آن دریای زیبای مازندران و در جنوب آن مناظر کم نظیر کوه‌‌‌های تالش و همچنین تالاب دیدنی استیل واقع شده‌اند." />
+    <meta property="og:url" content="http://taleshgard.ir/%d8%aa%d8%a7%d9%84%d8%a7%d8%a8-%d8%a7%d8%b3%d8%aa%db%8c%d9%84-%d8%a2%d8%b3%d8%aa%d8%a7%d8%b1%d8%a7/" />
+    <meta property="og:site_name" content="تالش گرد | taleshgard" />
+    <meta property="article:publisher" content="https://www.facebook.com/Taleshgard-1947732632110092/" />
+    <meta property="article:tag" content="آستارا،تالاب استیل،تالش،ایران ، گیلان" />
+    <meta property="article:section" content="سرزمین تالش" />
+    <meta property="article:published_time" content="۱۳۹۷-۰۴-۱۹T22:05:15+00:00" />
+    <meta property="article:modified_time" content="۱۳۹۷-۰۴-۱۹T22:08:55+00:00" />
+    <meta property="og:updated_time" content="۱۳۹۷-۰۴-۱۹T22:08:55+00:00" />
+    <meta property="og:image" content="http://taleshgard.ir/wp-content/uploads/2018/07/تالاب-استیل-آستارا.jpg" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="600" />
+    <meta property="og:image:alt" content="تالاب استیل آستارا" />
     {{-- <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@virgool_io">
     <meta name="twitter:title" content="ویرگول - جایی برای نوشتن و خواندن">
