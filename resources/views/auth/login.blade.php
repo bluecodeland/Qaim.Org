@@ -1,11 +1,10 @@
 @extends('layouts.app')
 @section('content')
 <div id="container" class="container h-100 hideme">
-    <div id="monster"></div>
     <div class="row h-100 justify-content-center align-items-center">
-     <div class=" d-none d-sm-block col-lg-10  justify-content-center ">
+     <div class=" d-none d-sm-block col-lg-10  justify-content-center">
           <div class="row "> 
-            <div class="col-lg-5 p-0 p3-0 round-right shadow-lg loginbg w hideme ">
+            <div class="col-lg-5 p-0 p3-0 round-right shadow-lg w logdetbg  ">
                 <div class="col-12 p-5 text-right">
                     <h2 class="w" style="color:red;">سلام</h2>
                     <h3>لطفا وارد شوید.</h3>

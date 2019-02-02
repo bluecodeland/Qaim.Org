@@ -69,8 +69,8 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
               <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 justify-content-center">
-                  <li class="nav-item active">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 justify-content-center ">
+                  <li class="nav-item active ">
                       <a class="nav-link" href="/">صفحه اصلی <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
@@ -79,21 +79,23 @@
                   <li class="nav-item">
                       <a class="nav-link" href="#">ارتباط با ما</a>
                   </li>
+                   
                   @if (Route::has('login'))
                       @auth
-                          <li class="nav-item">
-                              <a href="{{ url('/home') }}" class="nav-link">صفحه شخصی</a>
-                          </li>
-                          <li class="nav-item">
-                                  <a href="{{ route('logout') }}" class="nav-link" onclick="event.preventDefault();document.getElementById('logout-form').submit();">خروج</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="uploads/avatar/{{ $user->avatar }}" alt="{{ $user->name }}" class="avatar">
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="{{ url('/home') }}">صفحه شخصی</a>
+                      <a  class="dropdown-item" href="{{ route('logout') }}" class="nav-link" onclick="event.preventDefault();document.getElementById('logout-form').submit();">خروج</a>
                                   <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                       {{ csrf_field() }}
                                   </form>
-                              </div>
-                          </li>
-                      
-                      
-                      
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">تنظیمات</a>
+                    </div>
+                  </li>
                           @else
                           <li class="nav-item">
                               <a href="{{ route('login') }}" class="nav-link"  title="Tooltip on bottom"> ورود</a>
@@ -110,6 +112,7 @@
                 @yield('content')
             
     @yield('footer')
+  
     
 </body>
 </html>

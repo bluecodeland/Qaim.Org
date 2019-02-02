@@ -222,7 +222,7 @@ border-bottom-left-radius: 15px;
     padding-right: 80px;
 }
 .loginbg {
-    background-image: url('/uploads/login-bg.jpg');
+    background-image: url('/uploads/talabe_illustrator.jpg');
     background-size: cover;
     opacity: 0.9;
 
@@ -231,3 +231,15 @@ border-bottom-left-radius: 15px;
     color:fff !important;
 
 }
+.logdetbg{
+    background: linear-gradient(-45deg, #362689, #8B6FE6, #8860D0);
+    color:fff !important;
+
+}
+.avatar {
+
+    width:80px !important;
+    height: 80px !important;
+
+}
+/* menu */
