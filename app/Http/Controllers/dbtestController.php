@@ -8,7 +8,7 @@ use phplusir\smsir\SmsirLogs;
 use Auth;
 use Illuminate\Http\Request;
 
-class HomeController extends Controller
+class dbtestController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -35,6 +35,3 @@ class HomeController extends Controller
         return view('tes', ['users' => $users, 'smses' => $smses->where('id',1)]);
     }
 }
-
-
-
