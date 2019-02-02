@@ -32,6 +32,6 @@ class dbtestController extends Controller
         $smses = DB::table('smsir_logs')->get();
 
 
-        return view('tes', ['users' => $users, 'smses' => $smses->where('id',1)]);
+        return view('dbtest', ['users' => $users, 'smses' => $smses->where('id',1)]);
     }
 }
