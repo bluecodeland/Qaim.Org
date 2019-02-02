@@ -1,18 +1,31 @@
 <?php
-
+namespace phplusir\smsir\Controllers;
 namespace App\Http\Controllers;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Http\Request;
-use Auth;
 
-class dbtestController extends Controller
+use phplusir\smsir\Smsir;
+use phplusir\smsir\SmsirLogs;
+use Auth;
+use Illuminate\Http\Request;
+
+class HomeController extends Controller
 {
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
     public function __construct()
     {
         // $this->middleware('auth');
         $this->middleware(['auth', 'verified']);
     }
 
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
     public function index()
     {
         $users = DB::table('users')->get();
@@ -20,6 +33,8 @@ class dbtestController extends Controller
 
 
         return view('tes', ['users' => $users, 'smses' => $smses->where('id',1)]);
-        
     }
 }
+
+
+
