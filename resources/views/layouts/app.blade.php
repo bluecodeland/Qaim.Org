@@ -84,6 +84,8 @@
                       @auth
                   <li class="nav-item dropdown">
                     <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-bars fa-2x"></i>
+
                         {{-- <img src="uploads/avatar/{{ $user->avatar }}" alt="{{ $user->name }}" class="avatar"> --}}
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">

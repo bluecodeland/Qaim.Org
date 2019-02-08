@@ -54,5 +54,36 @@
 
 @endforeach
 </table>
+
+
+<table style="border:1px;">
+        <tr>
+            <th>id</th>
+            <th>sharename</th> 
+            <th>shareprice</th>
+            <th>shareq</th>
+          </tr>
+    @foreach($shares as $shr)
+    <tr>    
+      <td>{{$shr->id}}</td>
+      <td>{{$shr->share_name}}</td>
+      <td>{{$shr->share_price}}</td>
+      <td>{{$shr->share_qty}}</td>
+    
+    
+    
+      
+    </tr>
+    
+    @endforeach
+    </table>
+    
+
+
+
+
 </body>
+
+
+
 </html>

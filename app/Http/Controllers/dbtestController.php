@@ -29,9 +29,10 @@ class dbtestController extends Controller
     public function index()
     {
         $users = DB::table('users')->get();
+        $shares = DB::table('shares')->get();
         $smses = DB::table('smsir_logs')->get();
 
 
-        return view('dbtest', ['users' => $users, 'smses' => $smses->where('id',1)]);
+        return view('dbtest', ['users' => $users, 'smses' => $smses->where('id',1), 'shares' => $shares]);
     }
 }

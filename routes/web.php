@@ -45,3 +45,9 @@ Route::get('/bootstrap', function () {
     return view('boot');
 
 });
+Route::get('/dashboard', function () {
+    return view('layouts.dashboard');
+
+});
+
+Route::resource('shares', 'ShareController');
