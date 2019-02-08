@@ -66,7 +66,7 @@
     @foreach($shares as $shr)
     <tr>    
       <td>{{$shr->id}}</td>
-      <td>{{$shr->share_name}}</td>
+      <td>{!!$shr->share_name!!}</td>
       <td>{{$shr->share_price}}</td>
       <td>{{$shr->share_qty}}</td>
     
